@@ -1,0 +1,218 @@
+html {
+    font-size: 16px;
+}
+body {
+    background-color: #F2EDD0;
+    font-family: 'Crimson Text', serif;
+}
+#pearson {
+    font-family: 'Spinnaker', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+.fixed-row {
+    height: 1000px;
+}
+#sectionHead {
+    margin-top: 100px;
+    font-family: 'Spinnaker', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.nav-pearson {
+    font-family: 'Spinnaker', sans-serif;
+    color: #ffffff;
+}
+.fontSpinnaker {
+    font-family: 'Spinnaker', sans-serif;
+}
+.sectionHead {
+    text-align: center;
+    font-weight: bold;
+}
+#featureBoxes {
+    margin-top: 100px;
+}
+#featureBoxes img {
+    max-width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+#featureBoxes a {
+    color: #000000;
+    text-decoration: none;
+}
+#featureBoxes a:hover {
+    color: #6968B7;
+}
+.articleTitle {
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+}
+@media all and (max-width: 767px) {
+    .reviewBox {
+        max-height: 200px;
+        margin-bottom: 5px;
+    }
+    .reviewArtist {
+        display: none;
+    }
+    .reviewTitle {
+        display: none;
+    }
+    .reviewPub {
+        display: none;
+    }
+}
+@media all and (max-width: 480px) {
+    .articleTitle {
+        font-size: 1rem;
+        line-height: 1.1rem;
+        top: 1rem;
+        padding-top: 0.5rem;
+    }
+    .publication,
+    .pubDate {
+        display: none;
+    }
+    #featureBoxes {
+        margin-top: 70px;
+    }
+    #featureBoxes img {
+        float: none;
+    }
+    #sectionHead {
+        margin-top: 80px;
+        font-size: 24px;
+    }
+    #articleWrap.head-img {
+        display: block;
+        height: auto;
+    }
+    #articleWrap p {
+        font-size: 1rem;
+    }
+}
+.publication {
+    font-style: italic;
+    font-weight: bold;
+}
+.bottom25px {
+    margin-bottom: 25px;
+}
+#designCredit {
+    margin-top: 100px;
+    text-align: center;
+}
+#reviewsWrap {
+    margin-top: 50px;
+    align-content: center;
+}
+#reviewsWrap.row {
+    height: 800px;
+}
+#reviewsWrap img {
+    max-width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+.reviewArtist {
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+    font-weight: bold;
+    line-height: 1rem;
+}
+.reviewTitle {
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1rem;
+}
+.reviewPub {
+    font-size: .75rem;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 1%;
+}
+#reviewsWrap a {
+    color: #000000;
+    text-decoration: none;
+}
+#reviewsWrap a:hover {
+    color: #6968B7;
+}
+.reviewBox {
+    height: 320px;
+}
+#projectsWrap {
+    margin-left: 0;
+    margin-right: 0;
+}
+#projectsWrap h2 {
+    font-size: 1.2rem;
+    font-family: 'Spinnaker', sans-serif;
+    margin-bottom: 0.2rem;
+    font-weight: 700;
+}
+#projectsWrap h2 a {
+    text-decoration: none;
+    color: #6968b7;
+}
+#projectsWrap h2 a:hover {
+    text-decoration: none;
+    color: #59a859;
+}
+#projectsWrap ul {
+    margin-left: 20px;
+}
+.projectDate {
+    font-size: .8rem;
+    font-style: italic;
+}
+#contactEmail {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+#social-links {
+    display: flex;
+    margin: 0 auto;
+}
+#social-links img {
+    width: 50px;
+    float: left;
+    margin: 0 20px;
+}
+#articleWrap {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+#articleWrap p {
+    line-height: 1.4;
+    margin-bottom: 2rem;
+}
+#articleWrap .head-img {
+    float: right;
+    height: 300px;
+    margin: 20px;
+}
+.footnote {
+    font-style: italic;
+}
+#pageLinks {
+    font-size: 1.0625rem !important;
+    font-weight: bold !important;
+}
+.previous-page {
+    float: left;
+}
+.next-page {
+    float: right;
+}
